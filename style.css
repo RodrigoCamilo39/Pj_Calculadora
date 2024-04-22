@@ -10,3 +10,15 @@ body {
     height: 433px;
     background-color: #BAB2B2 ;
 }
+
+.title {
+    width: 322px;
+    height: 27px;
+    background-color: #3B3B3B;
+    font-size: 16px;
+    padding-left: 0.5%;
+}
+
+.title div {
+    padding: 5px;
+}
