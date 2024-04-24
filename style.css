@@ -7,8 +7,8 @@ body {
 
 .container {
     width: 322px;
-    height: 433px;
-    background-color: #BAB2B2 ;
+    height: 392px;
+    background-color: #BAB2B2;
 }
 
 .title {
@@ -21,4 +21,41 @@ body {
 
 .title div {
     padding: 5px;
+}
+
+.screen {
+    height: 87px;
+    text-align: right;
+}
+
+.screen-hist {
+    font-size: 25px;
+    padding-right: 2%;
+}
+
+.screen-result {
+    font-size: 50px;
+    margin-bottom: 10px;
+    padding-right: 2%;
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+button {
+    width: 75px;
+    height: 50px;
+    margin: 2px;
+    flex-direction: center;
+    align-items: center;
+}
+
+.igual {
+    background-color: #FF99A1;
+    width: 154px;
+    height: 50px;
 }
